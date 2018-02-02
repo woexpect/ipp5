@@ -2333,8 +2333,6 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
-			width: 400px; 
-			height: 400px;
 		}
 
 		.image.left, .image.right {
@@ -3395,4 +3393,23 @@
 	.logotypo{
 		font-family: 'Open Sans Condensed', sans-serif;
 		color: #E21D27;
+	}
+
+	.editor-pequeno { 
+        min-height: 200px; 
+        width: auto
+    }
+
+	.editor-mediano { 
+			min-height: 300px; 
+			width: auto
+		}
+
+	.editor-grande { 
+			min-height: 500px; 
+			width: auto
+		}      
+
+	.affix {
+		top: 60px;
 	}
